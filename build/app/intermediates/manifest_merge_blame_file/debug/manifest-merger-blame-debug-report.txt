@@ -1,0 +1,200 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.rajatkalsotra.face_recognition"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="28" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/home/sayan/Face-Recognition-Flutter-master/android/app/src/debug/AndroidManifest.xml:6:5-66
+14-->/home/sayan/Face-Recognition-Flutter-master/android/app/src/debug/AndroidManifest.xml:6:22-64
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->[:camera] /home/sayan/Face-Recognition-Flutter-master/build/camera/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-65
+15-->[:camera] /home/sayan/Face-Recognition-Flutter-master/build/camera/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-62
+16    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+16-->[:camera] /home/sayan/Face-Recognition-Flutter-master/build/camera/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-71
+16-->[:camera] /home/sayan/Face-Recognition-Flutter-master/build/camera/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-68
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[com.google.android.gms:play-services-measurement:17.2.2] /home/sayan/.gradle/caches/transforms-2/files-2.1/e824d8b293ca29102adc00325092ffad/play-services-measurement-17.2.2/AndroidManifest.xml:24:5-79
+17-->[com.google.android.gms:play-services-measurement:17.2.2] /home/sayan/.gradle/caches/transforms-2/files-2.1/e824d8b293ca29102adc00325092ffad/play-services-measurement-17.2.2/AndroidManifest.xml:24:22-76
+18    <uses-permission android:name="android.permission.WAKE_LOCK" />
+18-->[com.google.android.gms:play-services-measurement:17.2.2] /home/sayan/.gradle/caches/transforms-2/files-2.1/e824d8b293ca29102adc00325092ffad/play-services-measurement-17.2.2/AndroidManifest.xml:25:5-68
+18-->[com.google.android.gms:play-services-measurement:17.2.2] /home/sayan/.gradle/caches/transforms-2/files-2.1/e824d8b293ca29102adc00325092ffad/play-services-measurement-17.2.2/AndroidManifest.xml:25:22-65
+19    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+19-->[com.google.android.gms:play-services-measurement:17.2.2] /home/sayan/.gradle/caches/transforms-2/files-2.1/e824d8b293ca29102adc00325092ffad/play-services-measurement-17.2.2/AndroidManifest.xml:26:5-110
+19-->[com.google.android.gms:play-services-measurement:17.2.2] /home/sayan/.gradle/caches/transforms-2/files-2.1/e824d8b293ca29102adc00325092ffad/play-services-measurement-17.2.2/AndroidManifest.xml:26:22-107
+20    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+20-->[com.google.firebase:firebase-iid:20.0.2] /home/sayan/.gradle/caches/transforms-2/files-2.1/c266841fe422bd2db428e3a7e45cb9af/firebase-iid-20.0.2/AndroidManifest.xml:26:5-82
+20-->[com.google.firebase:firebase-iid:20.0.2] /home/sayan/.gradle/caches/transforms-2/files-2.1/c266841fe422bd2db428e3a7e45cb9af/firebase-iid-20.0.2/AndroidManifest.xml:26:22-79
+21    <!--
+22 io.flutter.app.FlutterApplication is an android.app.Application that
+23         calls FlutterMain.startInitialization(this); in its onCreate method.
+24         In most cases you can leave this as-is, but you if you want to provide
+25         additional functionality it is fine to subclass or reimplement
+26         FlutterApplication and put your custom class here.
+27    -->
+28    <application
+28-->/home/sayan/Face-Recognition-Flutter-master/android/app/src/main/AndroidManifest.xml:8:5-29:19
+29        android:name="io.flutter.app.FlutterApplication"
+29-->/home/sayan/Face-Recognition-Flutter-master/android/app/src/main/AndroidManifest.xml:9:9-57
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.1.0] /home/sayan/.gradle/caches/transforms-2/files-2.1/e6856c7cff7219f18cbbcc5d8d7cecec/core-1.1.0/AndroidManifest.xml:24:18-86
+31        android:debuggable="true"
+32        android:icon="@mipmap/ic_launcher"
+32-->/home/sayan/Face-Recognition-Flutter-master/android/app/src/main/AndroidManifest.xml:11:9-43
+33        android:label="Face Recognition" >
+33-->/home/sayan/Face-Recognition-Flutter-master/android/app/src/main/AndroidManifest.xml:10:9-41
+34        <activity
+34-->/home/sayan/Face-Recognition-Flutter-master/android/app/src/main/AndroidManifest.xml:12:9-23:20
+35            android:name="com.rajatkalsotra.face_recognition.MainActivity"
+35-->/home/sayan/Face-Recognition-Flutter-master/android/app/src/main/AndroidManifest.xml:13:13-41
+36            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+36-->/home/sayan/Face-Recognition-Flutter-master/android/app/src/main/AndroidManifest.xml:16:13-163
+37            android:hardwareAccelerated="true"
+37-->/home/sayan/Face-Recognition-Flutter-master/android/app/src/main/AndroidManifest.xml:17:13-47
+38            android:launchMode="singleTop"
+38-->/home/sayan/Face-Recognition-Flutter-master/android/app/src/main/AndroidManifest.xml:14:13-43
+39            android:theme="@style/LaunchTheme"
+39-->/home/sayan/Face-Recognition-Flutter-master/android/app/src/main/AndroidManifest.xml:15:13-47
+40            android:windowSoftInputMode="adjustResize" >
+40-->/home/sayan/Face-Recognition-Flutter-master/android/app/src/main/AndroidManifest.xml:18:13-55
+41            <intent-filter>
+41-->/home/sayan/Face-Recognition-Flutter-master/android/app/src/main/AndroidManifest.xml:19:13-22:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->/home/sayan/Face-Recognition-Flutter-master/android/app/src/main/AndroidManifest.xml:20:17-68
+42-->/home/sayan/Face-Recognition-Flutter-master/android/app/src/main/AndroidManifest.xml:20:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->/home/sayan/Face-Recognition-Flutter-master/android/app/src/main/AndroidManifest.xml:21:17-76
+44-->/home/sayan/Face-Recognition-Flutter-master/android/app/src/main/AndroidManifest.xml:21:27-74
+45            </intent-filter>
+46        </activity>
+47        <!--
+48             Don't delete the meta-data below.
+49             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+50        -->
+51        <meta-data
+51-->/home/sayan/Face-Recognition-Flutter-master/android/app/src/main/AndroidManifest.xml:26:9-28:33
+52            android:name="flutterEmbedding"
+52-->/home/sayan/Face-Recognition-Flutter-master/android/app/src/main/AndroidManifest.xml:27:13-44
+53            android:value="2" />
+53-->/home/sayan/Face-Recognition-Flutter-master/android/app/src/main/AndroidManifest.xml:28:13-30
+54
+55        <receiver
+55-->[com.google.android.gms:play-services-measurement:17.2.2] /home/sayan/.gradle/caches/transforms-2/files-2.1/e824d8b293ca29102adc00325092ffad/play-services-measurement-17.2.2/AndroidManifest.xml:29:9-33:20
+56            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+56-->[com.google.android.gms:play-services-measurement:17.2.2] /home/sayan/.gradle/caches/transforms-2/files-2.1/e824d8b293ca29102adc00325092ffad/play-services-measurement-17.2.2/AndroidManifest.xml:30:13-85
+57            android:enabled="true"
+57-->[com.google.android.gms:play-services-measurement:17.2.2] /home/sayan/.gradle/caches/transforms-2/files-2.1/e824d8b293ca29102adc00325092ffad/play-services-measurement-17.2.2/AndroidManifest.xml:31:13-35
+58            android:exported="false" >
+58-->[com.google.android.gms:play-services-measurement:17.2.2] /home/sayan/.gradle/caches/transforms-2/files-2.1/e824d8b293ca29102adc00325092ffad/play-services-measurement-17.2.2/AndroidManifest.xml:32:13-37
+59        </receiver>
+60        <receiver
+60-->[com.google.android.gms:play-services-measurement:17.2.2] /home/sayan/.gradle/caches/transforms-2/files-2.1/e824d8b293ca29102adc00325092ffad/play-services-measurement-17.2.2/AndroidManifest.xml:34:9-42:20
+61            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+61-->[com.google.android.gms:play-services-measurement:17.2.2] /home/sayan/.gradle/caches/transforms-2/files-2.1/e824d8b293ca29102adc00325092ffad/play-services-measurement-17.2.2/AndroidManifest.xml:35:13-100
+62            android:enabled="true"
+62-->[com.google.android.gms:play-services-measurement:17.2.2] /home/sayan/.gradle/caches/transforms-2/files-2.1/e824d8b293ca29102adc00325092ffad/play-services-measurement-17.2.2/AndroidManifest.xml:36:13-35
+63            android:exported="true"
+63-->[com.google.android.gms:play-services-measurement:17.2.2] /home/sayan/.gradle/caches/transforms-2/files-2.1/e824d8b293ca29102adc00325092ffad/play-services-measurement-17.2.2/AndroidManifest.xml:37:13-36
+64            android:permission="android.permission.INSTALL_PACKAGES" >
+64-->[com.google.android.gms:play-services-measurement:17.2.2] /home/sayan/.gradle/caches/transforms-2/files-2.1/e824d8b293ca29102adc00325092ffad/play-services-measurement-17.2.2/AndroidManifest.xml:38:13-69
+65            <intent-filter>
+65-->[com.google.android.gms:play-services-measurement:17.2.2] /home/sayan/.gradle/caches/transforms-2/files-2.1/e824d8b293ca29102adc00325092ffad/play-services-measurement-17.2.2/AndroidManifest.xml:39:13-41:29
+66                <action android:name="com.android.vending.INSTALL_REFERRER" />
+66-->[com.google.android.gms:play-services-measurement:17.2.2] /home/sayan/.gradle/caches/transforms-2/files-2.1/e824d8b293ca29102adc00325092ffad/play-services-measurement-17.2.2/AndroidManifest.xml:40:17-79
+66-->[com.google.android.gms:play-services-measurement:17.2.2] /home/sayan/.gradle/caches/transforms-2/files-2.1/e824d8b293ca29102adc00325092ffad/play-services-measurement-17.2.2/AndroidManifest.xml:40:25-76
+67            </intent-filter>
+68        </receiver>
+69
+70        <service
+70-->[com.google.android.gms:play-services-measurement:17.2.2] /home/sayan/.gradle/caches/transforms-2/files-2.1/e824d8b293ca29102adc00325092ffad/play-services-measurement-17.2.2/AndroidManifest.xml:44:9-47:40
+71            android:name="com.google.android.gms.measurement.AppMeasurementService"
+71-->[com.google.android.gms:play-services-measurement:17.2.2] /home/sayan/.gradle/caches/transforms-2/files-2.1/e824d8b293ca29102adc00325092ffad/play-services-measurement-17.2.2/AndroidManifest.xml:45:13-84
+72            android:enabled="true"
+72-->[com.google.android.gms:play-services-measurement:17.2.2] /home/sayan/.gradle/caches/transforms-2/files-2.1/e824d8b293ca29102adc00325092ffad/play-services-measurement-17.2.2/AndroidManifest.xml:46:13-35
+73            android:exported="false" />
+73-->[com.google.android.gms:play-services-measurement:17.2.2] /home/sayan/.gradle/caches/transforms-2/files-2.1/e824d8b293ca29102adc00325092ffad/play-services-measurement-17.2.2/AndroidManifest.xml:47:13-37
+74        <service
+74-->[com.google.android.gms:play-services-measurement:17.2.2] /home/sayan/.gradle/caches/transforms-2/files-2.1/e824d8b293ca29102adc00325092ffad/play-services-measurement-17.2.2/AndroidManifest.xml:48:9-52:72
+75            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+75-->[com.google.android.gms:play-services-measurement:17.2.2] /home/sayan/.gradle/caches/transforms-2/files-2.1/e824d8b293ca29102adc00325092ffad/play-services-measurement-17.2.2/AndroidManifest.xml:49:13-87
+76            android:enabled="true"
+76-->[com.google.android.gms:play-services-measurement:17.2.2] /home/sayan/.gradle/caches/transforms-2/files-2.1/e824d8b293ca29102adc00325092ffad/play-services-measurement-17.2.2/AndroidManifest.xml:50:13-35
+77            android:exported="false"
+77-->[com.google.android.gms:play-services-measurement:17.2.2] /home/sayan/.gradle/caches/transforms-2/files-2.1/e824d8b293ca29102adc00325092ffad/play-services-measurement-17.2.2/AndroidManifest.xml:51:13-37
+78            android:permission="android.permission.BIND_JOB_SERVICE" />
+78-->[com.google.android.gms:play-services-measurement:17.2.2] /home/sayan/.gradle/caches/transforms-2/files-2.1/e824d8b293ca29102adc00325092ffad/play-services-measurement-17.2.2/AndroidManifest.xml:52:13-69
+79        <service
+79-->[com.google.android.gms:play-services-measurement-api:17.2.2] /home/sayan/.gradle/caches/transforms-2/files-2.1/f83116d0690dd01225dbd5f211dc5390/play-services-measurement-api-17.2.2/AndroidManifest.xml:27:9-33:19
+80            android:name="com.google.firebase.components.ComponentDiscoveryService"
+80-->[com.google.android.gms:play-services-measurement-api:17.2.2] /home/sayan/.gradle/caches/transforms-2/files-2.1/f83116d0690dd01225dbd5f211dc5390/play-services-measurement-api-17.2.2/AndroidManifest.xml:28:13-84
+81            android:directBootAware="true"
+81-->[com.google.firebase:firebase-common:19.3.0] /home/sayan/.gradle/caches/transforms-2/files-2.1/296aa9f755187dc590c9ba9b126f7ae0/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+82            android:exported="false" >
+82-->[com.google.android.gms:play-services-measurement-api:17.2.2] /home/sayan/.gradle/caches/transforms-2/files-2.1/f83116d0690dd01225dbd5f211dc5390/play-services-measurement-api-17.2.2/AndroidManifest.xml:29:13-37
+83            <meta-data
+83-->[com.google.android.gms:play-services-measurement-api:17.2.2] /home/sayan/.gradle/caches/transforms-2/files-2.1/f83116d0690dd01225dbd5f211dc5390/play-services-measurement-api-17.2.2/AndroidManifest.xml:30:13-32:85
+84                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+84-->[com.google.android.gms:play-services-measurement-api:17.2.2] /home/sayan/.gradle/caches/transforms-2/files-2.1/f83116d0690dd01225dbd5f211dc5390/play-services-measurement-api-17.2.2/AndroidManifest.xml:31:17-139
+85                android:value="com.google.firebase.components.ComponentRegistrar" />
+85-->[com.google.android.gms:play-services-measurement-api:17.2.2] /home/sayan/.gradle/caches/transforms-2/files-2.1/f83116d0690dd01225dbd5f211dc5390/play-services-measurement-api-17.2.2/AndroidManifest.xml:32:17-82
+86            <meta-data
+86-->[com.google.firebase:firebase-iid:20.0.2] /home/sayan/.gradle/caches/transforms-2/files-2.1/c266841fe422bd2db428e3a7e45cb9af/firebase-iid-20.0.2/AndroidManifest.xml:32:13-34:85
+87                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+87-->[com.google.firebase:firebase-iid:20.0.2] /home/sayan/.gradle/caches/transforms-2/files-2.1/c266841fe422bd2db428e3a7e45cb9af/firebase-iid-20.0.2/AndroidManifest.xml:33:17-96
+88                android:value="com.google.firebase.components.ComponentRegistrar" />
+88-->[com.google.firebase:firebase-iid:20.0.2] /home/sayan/.gradle/caches/transforms-2/files-2.1/c266841fe422bd2db428e3a7e45cb9af/firebase-iid-20.0.2/AndroidManifest.xml:34:17-82
+89        </service>
+90
+91        <receiver
+91-->[com.google.firebase:firebase-iid:20.0.2] /home/sayan/.gradle/caches/transforms-2/files-2.1/c266841fe422bd2db428e3a7e45cb9af/firebase-iid-20.0.2/AndroidManifest.xml:37:9-44:20
+92            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+92-->[com.google.firebase:firebase-iid:20.0.2] /home/sayan/.gradle/caches/transforms-2/files-2.1/c266841fe422bd2db428e3a7e45cb9af/firebase-iid-20.0.2/AndroidManifest.xml:38:13-78
+93            android:exported="true"
+93-->[com.google.firebase:firebase-iid:20.0.2] /home/sayan/.gradle/caches/transforms-2/files-2.1/c266841fe422bd2db428e3a7e45cb9af/firebase-iid-20.0.2/AndroidManifest.xml:39:13-36
+94            android:permission="com.google.android.c2dm.permission.SEND" >
+94-->[com.google.firebase:firebase-iid:20.0.2] /home/sayan/.gradle/caches/transforms-2/files-2.1/c266841fe422bd2db428e3a7e45cb9af/firebase-iid-20.0.2/AndroidManifest.xml:40:13-73
+95            <intent-filter>
+95-->[com.google.firebase:firebase-iid:20.0.2] /home/sayan/.gradle/caches/transforms-2/files-2.1/c266841fe422bd2db428e3a7e45cb9af/firebase-iid-20.0.2/AndroidManifest.xml:41:13-43:29
+96                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+96-->[com.google.firebase:firebase-iid:20.0.2] /home/sayan/.gradle/caches/transforms-2/files-2.1/c266841fe422bd2db428e3a7e45cb9af/firebase-iid-20.0.2/AndroidManifest.xml:42:17-81
+96-->[com.google.firebase:firebase-iid:20.0.2] /home/sayan/.gradle/caches/transforms-2/files-2.1/c266841fe422bd2db428e3a7e45cb9af/firebase-iid-20.0.2/AndroidManifest.xml:42:25-78
+97            </intent-filter>
+98        </receiver>
+99
+100        <provider
+100-->[com.google.firebase:firebase-common:19.3.0] /home/sayan/.gradle/caches/transforms-2/files-2.1/296aa9f755187dc590c9ba9b126f7ae0/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+101            android:name="com.google.firebase.provider.FirebaseInitProvider"
+101-->[com.google.firebase:firebase-common:19.3.0] /home/sayan/.gradle/caches/transforms-2/files-2.1/296aa9f755187dc590c9ba9b126f7ae0/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+102            android:authorities="com.rajatkalsotra.face_recognition.firebaseinitprovider"
+102-->[com.google.firebase:firebase-common:19.3.0] /home/sayan/.gradle/caches/transforms-2/files-2.1/296aa9f755187dc590c9ba9b126f7ae0/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+103            android:exported="false"
+103-->[com.google.firebase:firebase-common:19.3.0] /home/sayan/.gradle/caches/transforms-2/files-2.1/296aa9f755187dc590c9ba9b126f7ae0/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+104            android:initOrder="100" />
+104-->[com.google.firebase:firebase-common:19.3.0] /home/sayan/.gradle/caches/transforms-2/files-2.1/296aa9f755187dc590c9ba9b126f7ae0/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+105
+106        <activity
+106-->[com.google.android.gms:play-services-base:17.0.0] /home/sayan/.gradle/caches/transforms-2/files-2.1/5b158abc2263076f387a9dedc11ef3a4/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+107            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+107-->[com.google.android.gms:play-services-base:17.0.0] /home/sayan/.gradle/caches/transforms-2/files-2.1/5b158abc2263076f387a9dedc11ef3a4/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+108            android:exported="false"
+108-->[com.google.android.gms:play-services-base:17.0.0] /home/sayan/.gradle/caches/transforms-2/files-2.1/5b158abc2263076f387a9dedc11ef3a4/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+109            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+109-->[com.google.android.gms:play-services-base:17.0.0] /home/sayan/.gradle/caches/transforms-2/files-2.1/5b158abc2263076f387a9dedc11ef3a4/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+110
+111        <meta-data
+111-->[com.google.android.gms:play-services-basement:17.0.0] /home/sayan/.gradle/caches/transforms-2/files-2.1/29247a1c98aa666ae4ade41afafe5f13/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+112            android:name="com.google.android.gms.version"
+112-->[com.google.android.gms:play-services-basement:17.0.0] /home/sayan/.gradle/caches/transforms-2/files-2.1/29247a1c98aa666ae4ade41afafe5f13/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+113            android:value="@integer/google_play_services_version" />
+113-->[com.google.android.gms:play-services-basement:17.0.0] /home/sayan/.gradle/caches/transforms-2/files-2.1/29247a1c98aa666ae4ade41afafe5f13/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+114    </application>
+115
+116</manifest>
